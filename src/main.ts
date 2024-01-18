@@ -1,14 +1,5 @@
 import { app, BrowserWindow } from "electron";
 import path from "path";
-// import GTJS from "growtopia.js";
-
-// const client = new GTJS.Client();
-
-// client.on("connect", (n) => {
-//   console.log(`Connected ${n}`);
-// });
-
-// client.listen();
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
